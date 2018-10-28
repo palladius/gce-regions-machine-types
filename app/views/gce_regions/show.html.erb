@@ -1,0 +1,49 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @gce_region.name %>
+</p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @gce_region.address %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @gce_region.description %>
+</p>
+
+<p>
+  <strong>Default Zones:</strong>
+  <%= @gce_region.default_zones %>
+</p>
+
+<p>
+  <strong>Is active:</strong>
+  <%= @gce_region.is_active %>
+</p>
+
+<h2>Zones under this region</h2>
+  <% @gce_region.zones.each do |zone| %>
+    <p>
+      <%= link_to zone, zone %>      
+    </p>
+  <% end %>
+
+<h2>Add a Zone under this region</h2>
+
+  <%= form_for([@gce_region, @gce_region.gce_zones.build]) do |f| %>
+    <div class="field">
+      <%= f.label :name %><br />
+      <%= f.text_field :name %>
+    </div>
+    <div class="actions">
+      <%= f.submit %>
+    </div>
+  <% end %>
+
+
+<%= link_to 'Edit', edit_gce_region_path(@gce_region) %> |
+<%= link_to 'Back', gce_regions_path %>
