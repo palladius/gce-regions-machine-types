@@ -81,21 +81,29 @@ if create_machine_types
   ## JSON
   $normal_machine_types_json = JSON.parse( File.open("#{Rails.root}/db/fixtures/machineTypes.aggregatedList.json" ).read )
   $normal_machine_types_json['items'].each do |mt|
-    print "\n+++++++++++++++++++ AAA ", mt, "\n"
+    #print "\n+++++++++++++++++++ AAA ", mt, "\n"
     # zones/asia-east2-c
     # - {"warning"=>{"code"=>"NO_RESULTS_ON_PAGE", "message"=>"There are no results for scope 'zones/asia-east2-c' on this page.", "data"=>[{"key"=>"scope", "value"=>"zones/asia-east2-c"}]}}
     zone_name, payload = mt
     warning = payload['warning']
     machineTypes = payload['machineTypes']
-    print " Zone: #{zone_name}\n"
-    print " Warning: #{warning}\n"
+    #print " Zone: #{zone_name}\n"
+    #print " Warning: #{warning}\n"
     #payload.each do |k,v| # unknown
     #  print " - DEB #{k} :: #{v}\n"
     #end
     if machineTypes
       machineTypes.each do |mt| # unknown
         if mt['kind'] == "compute#machineType" # right class!
-          m = MachineType.create(mt).save
+          print "\nMTDEB(virgin): #{mt}\n"
+          mt['gce_zone_id'] = GceZone.find_by_name(mt['zone']).id
+          mt['google_id'] = mt['id']
+          mt['id'] = nil
+          print "\nMTDEB(precreate): #{mt}\n"
+          m = MachineType.create(mt)
+          print "MT.toString: #{m}\n"
+          ret = m.save
+          print "ret: #{ret}\n"
         else
           raise "Wrong kind! #{ mt['kind'] }"
         end

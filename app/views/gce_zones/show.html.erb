@@ -15,5 +15,11 @@
   <%= link_to @gce_zone.gce_region, @gce_zone.gce_region %> 
 </p>
 
+<h2>Normal Machine Types</h2>
+
+<% @gce_zone.machine_types.each do |mt| %>
+  <p> <%= link_to mt,mt %> </p>
+<% end %>
+
 <%= link_to 'Edit', edit_gce_zone_path(@gce_zone) %> |
 <%= link_to 'Back', gce_zones_path %>

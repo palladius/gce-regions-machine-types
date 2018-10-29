@@ -5,8 +5,7 @@
 <table>
   <thead>
     <tr>
-      <th>Kind</th>
-      <th>Google</th>
+      <th>GoogleId</th>
       <th>Creation timestamp</th>
       <th>Name</th>
       <th>Description</th>
@@ -15,7 +14,8 @@
       <th>Image space gb</th>
       <th>Maximum persistent disks</th>
       <th>Maximum persistent disks size gb</th>
-      <th>Zone</th>
+      <th>Zone (Name)</th>
+      <th>GCE Zone (Obj)</th>
       <th>Self link</th>
       <th>Is shared cpu</th>
       <th colspan="3"></th>
@@ -25,7 +25,6 @@
   <tbody>
     <% @machine_types.each do |machine_type| %>
       <tr>
-        <td><%= machine_type.kind %></td>
         <td><%= machine_type.google_id %></td>
         <td><%= machine_type.creationTimestamp %></td>
         <td><%= machine_type.name %></td>
@@ -36,6 +35,7 @@
         <td><%= machine_type.maximumPersistentDisks %></td>
         <td><%= machine_type.maximumPersistentDisksSizeGb %></td>
         <td><%= machine_type.zone %></td>
+        <td><%= link_to machine_type.gce_zone,machine_type.gce_zone %></td>
         <td><%= machine_type.selfLink %></td>
         <td><%= machine_type.isSharedCpu %></td>
         <td><%= link_to 'Show', machine_type %></td>
