@@ -27,17 +27,17 @@
       <tr>
         <td><%= machine_type.kind %></td>
         <td><%= machine_type.google_id %></td>
-        <td><%= machine_type.creation_timestamp %></td>
+        <td><%= machine_type.creationTimestamp %></td>
         <td><%= machine_type.name %></td>
         <td><%= machine_type.description %></td>
-        <td><%= machine_type.guest_cpus %></td>
-        <td><%= machine_type.memory_mb %></td>
-        <td><%= machine_type.image_space_gb %></td>
-        <td><%= machine_type.maximum_persistent_disks %></td>
-        <td><%= machine_type.maximum_persistent_disks_size_gb %></td>
+        <td><%= machine_type.guestCpus %></td>
+        <td><%= machine_type.memoryMb %></td>
+        <td><%= machine_type.imageSpaceGb %></td>
+        <td><%= machine_type.maximumPersistentDisks %></td>
+        <td><%= machine_type.maximumPersistentDisksSizeGb %></td>
         <td><%= machine_type.zone %></td>
-        <td><%= machine_type.self_link %></td>
-        <td><%= machine_type.is_shared_cpu %></td>
+        <td><%= machine_type.selfLink %></td>
+        <td><%= machine_type.isSharedCpu %></td>
         <td><%= link_to 'Show', machine_type %></td>
         <td><%= link_to 'Edit', edit_machine_type_path(machine_type) %></td>
         <td><%= link_to 'Destroy', machine_type, method: :delete, data: { confirm: 'Are you sure?' } %></td>

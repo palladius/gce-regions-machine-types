@@ -1,6 +1,7 @@
 class GceZone < ApplicationRecord
   #belongs_to :GceRegion
   belongs_to :gce_region
+  has_many :machine_types
 
   validates :name,  :presence => true, format: { with: /\A[a-z]+-[a-z]+\d+-[a-z]\z/, 
     	message: "Use following format: $CONTINENT-$POSITION$DIGITS-$ALPHA (all lowercase), e.g. 'antarctica-west42-f'"}

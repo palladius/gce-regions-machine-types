@@ -3,17 +3,19 @@ class CreateMachineTypes < ActiveRecord::Migration[5.2]
     create_table :machine_types do |t|
       t.string :kind
       t.integer :google_id
-      t.timestamp :creation_timestamp
+      t.timestamp :creationTimestamp
       t.string :name
       t.string :description
-      t.integer :guest_cpus
-      t.integer :memory_mb
-      t.integer :image_space_gb
-      t.integer :maximum_persistent_disks
-      t.integer :maximum_persistent_disks_size_gb
+      t.integer :guestCpus
+      t.integer :memoryMb
+      t.integer :imageSpaceGb
+      t.integer :maximumPersistentDisks
+      t.integer :maximumPersistentDisksSizeGb
       t.string :zone
-      t.string :self_link
-      t.boolean :is_shared_cpu
+      t.string :selfLink
+      t.boolean :isSharedCpu
+      # references to GceZone element
+      t.references :gce_zone, foreign_key: true
 
       t.timestamps
     end

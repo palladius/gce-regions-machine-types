@@ -27,36 +27,83 @@ us-west1	a, b, c	The Dalles, Oregon, USA
 us-west2	a, b, c	Los Angeles, California, USA
 =end
 
-seed_version = '1.1'
+seed_version = '1.2'
+create_regions_and_zones = true
+create_machine_types = true
 file_timestamp =  File.mtime("#{Rails.root}/db/regions.txt")
 
-GceRegion.create(name: 'southamerica-east1', address: 'São Paulo, Brazil', default_zones: 'a,b,c')
-GceRegion.create(name: 'southamerica-east1', address: 'São Paulo, Brazil', default_zones: 'a,b,c') # should fail as name is taken
-#GceZone.create(name: 'southamerica-east1-a')
+if create_regions_and_zones
 
+  # sample regions
+  GceRegion.create(name: 'southamerica-east1', address: 'São Paulo, Brazil', default_zones: 'a,b,c')
+  GceRegion.create(name: 'southamerica-east1', address: 'São Paulo, Brazil', default_zones: 'a,b,c') # should fail as name is taken
+  #GceZone.create(name: 'southamerica-east1-a')
 
-# Autogenerate from Regions.txt FILE.
-f = File.open("#{Rails.root}/db/regions.txt").readlines()
-f.each do |line|
-  region_name, commasep_zones, address = line.split("\t")
-  r = GceRegion.create(
-    name: region_name, 
-    address: address,
-    description: "[db/seed.rb] taken from `regions.txt` (cut and pasted from: https://cloud.google.com/compute/docs/regions-zones/ ) and updated to #{file_timestamp} (seed_version: #{seed_version})",
-    default_zones: commasep_zones,
-  )
-  print "New region: #{r}\n"
-  r.save
+  # Autogenerate from Regions.txt FILE.
+  f = File.open("#{Rails.root}/db/regions.txt").readlines()
+  f.each do |line|
+    region_name, commasep_zones, address = line.split("\t")
+    r = GceRegion.create(
+      name: region_name, 
+      address: address,
+      description: "[db/seed.rb] taken from `regions.txt` (cut and pasted from: https://cloud.google.com/compute/docs/regions-zones/ ) and updated to #{file_timestamp} (seed_version: #{seed_version})",
+      default_zones: commasep_zones,
+    )
+    print "New region: #{r}\n"
+    r.save
+  end
+
+  # Sample zones
+  sample_region = GceRegion.second
+  sample_region.autocreate_child_zones
+
+  # Create zones for ALL regions
+  GceRegion.all.each do |r|
+    r.autocreate_child_zones
+  end
+
 end
 
-# Sample zones
-sample_region = GceRegion.second
-sample_region.autocreate_child_zones
+if create_machine_types
+    # t.string :kind
+    # t.integer :google_id
+    # t.timestamp :creation_timestamp
+    # t.string :name
+    # t.string :description
+    # t.integer :guest_cpus
+    # t.integer :memory_mb
+    # t.integer :image_space_gb
+    # t.integer :maximum_persistent_disks
+    # t.integer :maximum_persistent_disks_size_gb
+    # t.string :zone
+    # t.string :self_link
+    # t.boolean :is_shared_cpu
+  ## JSON
+  $normal_machine_types_json = JSON.parse( File.open("#{Rails.root}/db/fixtures/machineTypes.aggregatedList.json" ).read )
+  $normal_machine_types_json['items'].each do |mt|
+    print "\n+++++++++++++++++++ AAA ", mt, "\n"
+    # zones/asia-east2-c
+    # - {"warning"=>{"code"=>"NO_RESULTS_ON_PAGE", "message"=>"There are no results for scope 'zones/asia-east2-c' on this page.", "data"=>[{"key"=>"scope", "value"=>"zones/asia-east2-c"}]}}
+    zone_name, payload = mt
+    warning = payload['warning']
+    machineTypes = payload['machineTypes']
+    print " Zone: #{zone_name}\n"
+    print " Warning: #{warning}\n"
+    #payload.each do |k,v| # unknown
+    #  print " - DEB #{k} :: #{v}\n"
+    #end
+    if machineTypes
+      machineTypes.each do |mt| # unknown
+        if mt['kind'] == "compute#machineType" # right class!
+          m = MachineType.create(mt).save
+        else
+          raise "Wrong kind! #{ mt['kind'] }"
+        end
+      end
+    end
 
-# Create zones for ALL regions
-GceRegion.all.each do |r|
-  r.autocreate_child_zones
+  end
+  #card = Card.new(ActiveSupport::JSON.decode(json))
 end
-
 
 print "rake db:seed completed!\n"

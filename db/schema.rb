@@ -34,19 +34,21 @@ ActiveRecord::Schema.define(version: 2018_10_28_204749) do
   create_table "machine_types", force: :cascade do |t|
     t.string "kind"
     t.integer "google_id"
-    t.datetime "creation_timestamp"
+    t.datetime "creationTimestamp"
     t.string "name"
     t.string "description"
-    t.integer "guest_cpus"
-    t.integer "memory_mb"
-    t.integer "image_space_gb"
-    t.integer "maximum_persistent_disks"
-    t.integer "maximum_persistent_disks_size_gb"
+    t.integer "guestCpus"
+    t.integer "memoryMb"
+    t.integer "imageSpaceGb"
+    t.integer "maximumPersistentDisks"
+    t.integer "maximumPersistentDisksSizeGb"
     t.string "zone"
-    t.string "self_link"
-    t.boolean "is_shared_cpu"
+    t.string "selfLink"
+    t.boolean "isSharedCpu"
+    t.integer "gce_zone_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["gce_zone_id"], name: "index_machine_types_on_gce_zone_id"
   end
 
 end
