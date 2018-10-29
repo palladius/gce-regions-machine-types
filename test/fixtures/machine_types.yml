@@ -1,0 +1,31 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  kind: MyString
+  google_id: 1
+  creation_timestamp: 2018-10-28 21:47:49
+  name: MyString
+  description: MyString
+  guest_cpus: 1
+  memory_mb: 1
+  image_space_gb: 1
+  maximum_persistent_disks: 1
+  maximum_persistent_disks_size_gb: 1
+  zone: MyString
+  self_link: MyString
+  is_shared_cpu: false
+
+two:
+  kind: MyString
+  google_id: 1
+  creation_timestamp: 2018-10-28 21:47:49
+  name: MyString
+  description: MyString
+  guest_cpus: 1
+  memory_mb: 1
+  image_space_gb: 1
+  maximum_persistent_disks: 1
+  maximum_persistent_disks_size_gb: 1
+  zone: MyString
+  self_link: MyString
+  is_shared_cpu: false

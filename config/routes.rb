@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :machine_types
   get 'welcome/index'
   get 'welcome/about'
   get 'welcome/license'

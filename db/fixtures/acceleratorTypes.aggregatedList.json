@@ -1,0 +1,1155 @@
+{
+ "kind": "compute#acceleratorTypeAggregatedList",
+ "id": "projects/ric-cccwiki/aggregated/acceleratorTypes",
+ "items": {
+  "zones/us-central1-a": {
+   "acceleratorTypes": [
+    {
+     "kind": "compute#acceleratorType",
+     "id": "10002",
+     "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+     "name": "nvidia-tesla-k80",
+     "description": "NVIDIA Tesla K80",
+     "zone": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/us-central1-a",
+     "selfLink": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/us-central1-a/acceleratorTypes/nvidia-tesla-k80",
+     "maximumCardsPerInstance": 8
+    },
+    {
+     "kind": "compute#acceleratorType",
+     "id": "10010",
+     "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+     "name": "nvidia-tesla-p4",
+     "description": "NVIDIA Tesla P4",
+     "zone": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/us-central1-a",
+     "selfLink": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/us-central1-a/acceleratorTypes/nvidia-tesla-p4",
+     "maximumCardsPerInstance": 4
+    },
+    {
+     "kind": "compute#acceleratorType",
+     "id": "10012",
+     "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+     "name": "nvidia-tesla-p4-vws",
+     "description": "NVIDIA Tesla P4 Virtual Workstation",
+     "zone": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/us-central1-a",
+     "selfLink": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/us-central1-a/acceleratorTypes/nvidia-tesla-p4-vws",
+     "maximumCardsPerInstance": 4
+    },
+    {
+     "kind": "compute#acceleratorType",
+     "id": "10008",
+     "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+     "name": "nvidia-tesla-v100",
+     "description": "NVIDIA Tesla V100",
+     "zone": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/us-central1-a",
+     "selfLink": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/us-central1-a/acceleratorTypes/nvidia-tesla-v100",
+     "maximumCardsPerInstance": 8
+    }
+   ]
+  },
+  "zones/us-central1-b": {
+   "acceleratorTypes": [
+    {
+     "kind": "compute#acceleratorType",
+     "id": "10008",
+     "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+     "name": "nvidia-tesla-v100",
+     "description": "NVIDIA Tesla V100",
+     "zone": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/us-central1-b",
+     "selfLink": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/us-central1-b/acceleratorTypes/nvidia-tesla-v100",
+     "maximumCardsPerInstance": 8
+    }
+   ]
+  },
+  "zones/us-central1-c": {
+   "acceleratorTypes": [
+    {
+     "kind": "compute#acceleratorType",
+     "id": "10002",
+     "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+     "name": "nvidia-tesla-k80",
+     "description": "NVIDIA Tesla K80",
+     "zone": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/us-central1-c",
+     "selfLink": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/us-central1-c/acceleratorTypes/nvidia-tesla-k80",
+     "maximumCardsPerInstance": 8
+    },
+    {
+     "kind": "compute#acceleratorType",
+     "id": "10004",
+     "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+     "name": "nvidia-tesla-p100",
+     "description": "NVIDIA Tesla P100",
+     "zone": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/us-central1-c",
+     "selfLink": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/us-central1-c/acceleratorTypes/nvidia-tesla-p100",
+     "maximumCardsPerInstance": 4
+    },
+    {
+     "kind": "compute#acceleratorType",
+     "id": "10007",
+     "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+     "name": "nvidia-tesla-p100-vws",
+     "description": "NVIDIA Tesla P100 Virtual Workstation",
+     "zone": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/us-central1-c",
+     "selfLink": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/us-central1-c/acceleratorTypes/nvidia-tesla-p100-vws",
+     "maximumCardsPerInstance": 4
+    },
+    {
+     "kind": "compute#acceleratorType",
+     "id": "10010",
+     "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+     "name": "nvidia-tesla-p4",
+     "description": "NVIDIA Tesla P4",
+     "zone": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/us-central1-c",
+     "selfLink": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/us-central1-c/acceleratorTypes/nvidia-tesla-p4",
+     "maximumCardsPerInstance": 4
+    },
+    {
+     "kind": "compute#acceleratorType",
+     "id": "10012",
+     "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+     "name": "nvidia-tesla-p4-vws",
+     "description": "NVIDIA Tesla P4 Virtual Workstation",
+     "zone": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/us-central1-c",
+     "selfLink": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/us-central1-c/acceleratorTypes/nvidia-tesla-p4-vws",
+     "maximumCardsPerInstance": 4
+    }
+   ]
+  },
+  "zones/us-central1-f": {
+   "acceleratorTypes": [
+    {
+     "kind": "compute#acceleratorType",
+     "id": "10004",
+     "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+     "name": "nvidia-tesla-p100",
+     "description": "NVIDIA Tesla P100",
+     "zone": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/us-central1-f",
+     "selfLink": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/us-central1-f/acceleratorTypes/nvidia-tesla-p100",
+     "maximumCardsPerInstance": 4
+    },
+    {
+     "kind": "compute#acceleratorType",
+     "id": "10007",
+     "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+     "name": "nvidia-tesla-p100-vws",
+     "description": "NVIDIA Tesla P100 Virtual Workstation",
+     "zone": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/us-central1-f",
+     "selfLink": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/us-central1-f/acceleratorTypes/nvidia-tesla-p100-vws",
+     "maximumCardsPerInstance": 4
+    },
+    {
+     "kind": "compute#acceleratorType",
+     "id": "10008",
+     "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+     "name": "nvidia-tesla-v100",
+     "description": "NVIDIA Tesla V100",
+     "zone": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/us-central1-f",
+     "selfLink": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/us-central1-f/acceleratorTypes/nvidia-tesla-v100",
+     "maximumCardsPerInstance": 8
+    }
+   ]
+  },
+  "zones/europe-west1-b": {
+   "acceleratorTypes": [
+    {
+     "kind": "compute#acceleratorType",
+     "id": "10002",
+     "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+     "name": "nvidia-tesla-k80",
+     "description": "NVIDIA Tesla K80",
+     "zone": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/europe-west1-b",
+     "selfLink": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/europe-west1-b/acceleratorTypes/nvidia-tesla-k80",
+     "maximumCardsPerInstance": 8
+    },
+    {
+     "kind": "compute#acceleratorType",
+     "id": "10004",
+     "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+     "name": "nvidia-tesla-p100",
+     "description": "NVIDIA Tesla P100",
+     "zone": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/europe-west1-b",
+     "selfLink": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/europe-west1-b/acceleratorTypes/nvidia-tesla-p100",
+     "maximumCardsPerInstance": 4
+    },
+    {
+     "kind": "compute#acceleratorType",
+     "id": "10007",
+     "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+     "name": "nvidia-tesla-p100-vws",
+     "description": "NVIDIA Tesla P100 Virtual Workstation",
+     "zone": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/europe-west1-b",
+     "selfLink": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/europe-west1-b/acceleratorTypes/nvidia-tesla-p100-vws",
+     "maximumCardsPerInstance": 4
+    }
+   ]
+  },
+  "zones/europe-west1-c": {
+   "warning": {
+    "code": "NO_RESULTS_ON_PAGE",
+    "message": "There are no results for scope 'zones/europe-west1-c' on this page.",
+    "data": [
+     {
+      "key": "scope",
+      "value": "zones/europe-west1-c"
+     }
+    ]
+   }
+  },
+  "zones/europe-west1-d": {
+   "acceleratorTypes": [
+    {
+     "kind": "compute#acceleratorType",
+     "id": "10002",
+     "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+     "name": "nvidia-tesla-k80",
+     "description": "NVIDIA Tesla K80",
+     "zone": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/europe-west1-d",
+     "selfLink": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/europe-west1-d/acceleratorTypes/nvidia-tesla-k80",
+     "maximumCardsPerInstance": 8
+    },
+    {
+     "kind": "compute#acceleratorType",
+     "id": "10004",
+     "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+     "name": "nvidia-tesla-p100",
+     "description": "NVIDIA Tesla P100",
+     "zone": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/europe-west1-d",
+     "selfLink": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/europe-west1-d/acceleratorTypes/nvidia-tesla-p100",
+     "maximumCardsPerInstance": 4
+    },
+    {
+     "kind": "compute#acceleratorType",
+     "id": "10007",
+     "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+     "name": "nvidia-tesla-p100-vws",
+     "description": "NVIDIA Tesla P100 Virtual Workstation",
+     "zone": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/europe-west1-d",
+     "selfLink": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/europe-west1-d/acceleratorTypes/nvidia-tesla-p100-vws",
+     "maximumCardsPerInstance": 4
+    }
+   ]
+  },
+  "zones/us-west1-a": {
+   "acceleratorTypes": [
+    {
+     "kind": "compute#acceleratorType",
+     "id": "10004",
+     "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+     "name": "nvidia-tesla-p100",
+     "description": "NVIDIA Tesla P100",
+     "zone": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/us-west1-a",
+     "selfLink": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/us-west1-a/acceleratorTypes/nvidia-tesla-p100",
+     "maximumCardsPerInstance": 4
+    },
+    {
+     "kind": "compute#acceleratorType",
+     "id": "10007",
+     "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+     "name": "nvidia-tesla-p100-vws",
+     "description": "NVIDIA Tesla P100 Virtual Workstation",
+     "zone": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/us-west1-a",
+     "selfLink": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/us-west1-a/acceleratorTypes/nvidia-tesla-p100-vws",
+     "maximumCardsPerInstance": 4
+    },
+    {
+     "kind": "compute#acceleratorType",
+     "id": "10008",
+     "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+     "name": "nvidia-tesla-v100",
+     "description": "NVIDIA Tesla V100",
+     "zone": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/us-west1-a",
+     "selfLink": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/us-west1-a/acceleratorTypes/nvidia-tesla-v100",
+     "maximumCardsPerInstance": 8
+    }
+   ]
+  },
+  "zones/us-west1-b": {
+   "acceleratorTypes": [
+    {
+     "kind": "compute#acceleratorType",
+     "id": "10002",
+     "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+     "name": "nvidia-tesla-k80",
+     "description": "NVIDIA Tesla K80",
+     "zone": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/us-west1-b",
+     "selfLink": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/us-west1-b/acceleratorTypes/nvidia-tesla-k80",
+     "maximumCardsPerInstance": 8
+    },
+    {
+     "kind": "compute#acceleratorType",
+     "id": "10004",
+     "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+     "name": "nvidia-tesla-p100",
+     "description": "NVIDIA Tesla P100",
+     "zone": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/us-west1-b",
+     "selfLink": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/us-west1-b/acceleratorTypes/nvidia-tesla-p100",
+     "maximumCardsPerInstance": 4
+    },
+    {
+     "kind": "compute#acceleratorType",
+     "id": "10007",
+     "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+     "name": "nvidia-tesla-p100-vws",
+     "description": "NVIDIA Tesla P100 Virtual Workstation",
+     "zone": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/us-west1-b",
+     "selfLink": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/us-west1-b/acceleratorTypes/nvidia-tesla-p100-vws",
+     "maximumCardsPerInstance": 4
+    },
+    {
+     "kind": "compute#acceleratorType",
+     "id": "10008",
+     "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+     "name": "nvidia-tesla-v100",
+     "description": "NVIDIA Tesla V100",
+     "zone": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/us-west1-b",
+     "selfLink": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/us-west1-b/acceleratorTypes/nvidia-tesla-v100",
+     "maximumCardsPerInstance": 8
+    }
+   ]
+  },
+  "zones/us-west1-c": {
+   "warning": {
+    "code": "NO_RESULTS_ON_PAGE",
+    "message": "There are no results for scope 'zones/us-west1-c' on this page.",
+    "data": [
+     {
+      "key": "scope",
+      "value": "zones/us-west1-c"
+     }
+    ]
+   }
+  },
+  "zones/asia-east1-a": {
+   "acceleratorTypes": [
+    {
+     "kind": "compute#acceleratorType",
+     "id": "10002",
+     "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+     "name": "nvidia-tesla-k80",
+     "description": "NVIDIA Tesla K80",
+     "zone": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/asia-east1-a",
+     "selfLink": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/asia-east1-a/acceleratorTypes/nvidia-tesla-k80",
+     "maximumCardsPerInstance": 8
+    },
+    {
+     "kind": "compute#acceleratorType",
+     "id": "10004",
+     "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+     "name": "nvidia-tesla-p100",
+     "description": "NVIDIA Tesla P100",
+     "zone": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/asia-east1-a",
+     "selfLink": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/asia-east1-a/acceleratorTypes/nvidia-tesla-p100",
+     "maximumCardsPerInstance": 4
+    },
+    {
+     "kind": "compute#acceleratorType",
+     "id": "10007",
+     "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+     "name": "nvidia-tesla-p100-vws",
+     "description": "NVIDIA Tesla P100 Virtual Workstation",
+     "zone": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/asia-east1-a",
+     "selfLink": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/asia-east1-a/acceleratorTypes/nvidia-tesla-p100-vws",
+     "maximumCardsPerInstance": 4
+    }
+   ]
+  },
+  "zones/asia-east1-b": {
+   "acceleratorTypes": [
+    {
+     "kind": "compute#acceleratorType",
+     "id": "10002",
+     "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+     "name": "nvidia-tesla-k80",
+     "description": "NVIDIA Tesla K80",
+     "zone": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/asia-east1-b",
+     "selfLink": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/asia-east1-b/acceleratorTypes/nvidia-tesla-k80",
+     "maximumCardsPerInstance": 8
+    }
+   ]
+  },
+  "zones/asia-east1-c": {
+   "acceleratorTypes": [
+    {
+     "kind": "compute#acceleratorType",
+     "id": "10004",
+     "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+     "name": "nvidia-tesla-p100",
+     "description": "NVIDIA Tesla P100",
+     "zone": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/asia-east1-c",
+     "selfLink": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/asia-east1-c/acceleratorTypes/nvidia-tesla-p100",
+     "maximumCardsPerInstance": 4
+    },
+    {
+     "kind": "compute#acceleratorType",
+     "id": "10007",
+     "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+     "name": "nvidia-tesla-p100-vws",
+     "description": "NVIDIA Tesla P100 Virtual Workstation",
+     "zone": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/asia-east1-c",
+     "selfLink": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/asia-east1-c/acceleratorTypes/nvidia-tesla-p100-vws",
+     "maximumCardsPerInstance": 4
+    },
+    {
+     "kind": "compute#acceleratorType",
+     "id": "10008",
+     "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+     "name": "nvidia-tesla-v100",
+     "description": "NVIDIA Tesla V100",
+     "zone": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/asia-east1-c",
+     "selfLink": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/asia-east1-c/acceleratorTypes/nvidia-tesla-v100",
+     "maximumCardsPerInstance": 8
+    }
+   ]
+  },
+  "zones/us-east1-b": {
+   "acceleratorTypes": [
+    {
+     "kind": "compute#acceleratorType",
+     "id": "10004",
+     "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+     "name": "nvidia-tesla-p100",
+     "description": "NVIDIA Tesla P100",
+     "zone": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/us-east1-b",
+     "selfLink": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/us-east1-b/acceleratorTypes/nvidia-tesla-p100",
+     "maximumCardsPerInstance": 4
+    },
+    {
+     "kind": "compute#acceleratorType",
+     "id": "10007",
+     "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+     "name": "nvidia-tesla-p100-vws",
+     "description": "NVIDIA Tesla P100 Virtual Workstation",
+     "zone": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/us-east1-b",
+     "selfLink": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/us-east1-b/acceleratorTypes/nvidia-tesla-p100-vws",
+     "maximumCardsPerInstance": 4
+    }
+   ]
+  },
+  "zones/us-east1-c": {
+   "acceleratorTypes": [
+    {
+     "kind": "compute#acceleratorType",
+     "id": "10002",
+     "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+     "name": "nvidia-tesla-k80",
+     "description": "NVIDIA Tesla K80",
+     "zone": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/us-east1-c",
+     "selfLink": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/us-east1-c/acceleratorTypes/nvidia-tesla-k80",
+     "maximumCardsPerInstance": 8
+    },
+    {
+     "kind": "compute#acceleratorType",
+     "id": "10004",
+     "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+     "name": "nvidia-tesla-p100",
+     "description": "NVIDIA Tesla P100",
+     "zone": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/us-east1-c",
+     "selfLink": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/us-east1-c/acceleratorTypes/nvidia-tesla-p100",
+     "maximumCardsPerInstance": 4
+    },
+    {
+     "kind": "compute#acceleratorType",
+     "id": "10007",
+     "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+     "name": "nvidia-tesla-p100-vws",
+     "description": "NVIDIA Tesla P100 Virtual Workstation",
+     "zone": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/us-east1-c",
+     "selfLink": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/us-east1-c/acceleratorTypes/nvidia-tesla-p100-vws",
+     "maximumCardsPerInstance": 4
+    }
+   ]
+  },
+  "zones/us-east1-d": {
+   "acceleratorTypes": [
+    {
+     "kind": "compute#acceleratorType",
+     "id": "10002",
+     "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+     "name": "nvidia-tesla-k80",
+     "description": "NVIDIA Tesla K80",
+     "zone": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/us-east1-d",
+     "selfLink": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/us-east1-d/acceleratorTypes/nvidia-tesla-k80",
+     "maximumCardsPerInstance": 8
+    }
+   ]
+  },
+  "zones/asia-northeast1-a": {
+   "warning": {
+    "code": "NO_RESULTS_ON_PAGE",
+    "message": "There are no results for scope 'zones/asia-northeast1-a' on this page.",
+    "data": [
+     {
+      "key": "scope",
+      "value": "zones/asia-northeast1-a"
+     }
+    ]
+   }
+  },
+  "zones/asia-northeast1-b": {
+   "warning": {
+    "code": "NO_RESULTS_ON_PAGE",
+    "message": "There are no results for scope 'zones/asia-northeast1-b' on this page.",
+    "data": [
+     {
+      "key": "scope",
+      "value": "zones/asia-northeast1-b"
+     }
+    ]
+   }
+  },
+  "zones/asia-northeast1-c": {
+   "warning": {
+    "code": "NO_RESULTS_ON_PAGE",
+    "message": "There are no results for scope 'zones/asia-northeast1-c' on this page.",
+    "data": [
+     {
+      "key": "scope",
+      "value": "zones/asia-northeast1-c"
+     }
+    ]
+   }
+  },
+  "zones/asia-southeast1-a": {
+   "warning": {
+    "code": "NO_RESULTS_ON_PAGE",
+    "message": "There are no results for scope 'zones/asia-southeast1-a' on this page.",
+    "data": [
+     {
+      "key": "scope",
+      "value": "zones/asia-southeast1-a"
+     }
+    ]
+   }
+  },
+  "zones/asia-southeast1-b": {
+   "acceleratorTypes": [
+    {
+     "kind": "compute#acceleratorType",
+     "id": "10010",
+     "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+     "name": "nvidia-tesla-p4",
+     "description": "NVIDIA Tesla P4",
+     "zone": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/asia-southeast1-b",
+     "selfLink": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/asia-southeast1-b/acceleratorTypes/nvidia-tesla-p4",
+     "maximumCardsPerInstance": 4
+    },
+    {
+     "kind": "compute#acceleratorType",
+     "id": "10012",
+     "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+     "name": "nvidia-tesla-p4-vws",
+     "description": "NVIDIA Tesla P4 Virtual Workstation",
+     "zone": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/asia-southeast1-b",
+     "selfLink": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/asia-southeast1-b/acceleratorTypes/nvidia-tesla-p4-vws",
+     "maximumCardsPerInstance": 4
+    }
+   ]
+  },
+  "zones/asia-southeast1-c": {
+   "acceleratorTypes": [
+    {
+     "kind": "compute#acceleratorType",
+     "id": "10010",
+     "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+     "name": "nvidia-tesla-p4",
+     "description": "NVIDIA Tesla P4",
+     "zone": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/asia-southeast1-c",
+     "selfLink": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/asia-southeast1-c/acceleratorTypes/nvidia-tesla-p4",
+     "maximumCardsPerInstance": 4
+    },
+    {
+     "kind": "compute#acceleratorType",
+     "id": "10012",
+     "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+     "name": "nvidia-tesla-p4-vws",
+     "description": "NVIDIA Tesla P4 Virtual Workstation",
+     "zone": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/asia-southeast1-c",
+     "selfLink": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/asia-southeast1-c/acceleratorTypes/nvidia-tesla-p4-vws",
+     "maximumCardsPerInstance": 4
+    }
+   ]
+  },
+  "zones/us-east4-a": {
+   "acceleratorTypes": [
+    {
+     "kind": "compute#acceleratorType",
+     "id": "10010",
+     "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+     "name": "nvidia-tesla-p4",
+     "description": "NVIDIA Tesla P4",
+     "zone": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/us-east4-a",
+     "selfLink": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/us-east4-a/acceleratorTypes/nvidia-tesla-p4",
+     "maximumCardsPerInstance": 4
+    },
+    {
+     "kind": "compute#acceleratorType",
+     "id": "10012",
+     "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+     "name": "nvidia-tesla-p4-vws",
+     "description": "NVIDIA Tesla P4 Virtual Workstation",
+     "zone": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/us-east4-a",
+     "selfLink": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/us-east4-a/acceleratorTypes/nvidia-tesla-p4-vws",
+     "maximumCardsPerInstance": 4
+    }
+   ]
+  },
+  "zones/us-east4-b": {
+   "acceleratorTypes": [
+    {
+     "kind": "compute#acceleratorType",
+     "id": "10010",
+     "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+     "name": "nvidia-tesla-p4",
+     "description": "NVIDIA Tesla P4",
+     "zone": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/us-east4-b",
+     "selfLink": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/us-east4-b/acceleratorTypes/nvidia-tesla-p4",
+     "maximumCardsPerInstance": 4
+    },
+    {
+     "kind": "compute#acceleratorType",
+     "id": "10012",
+     "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+     "name": "nvidia-tesla-p4-vws",
+     "description": "NVIDIA Tesla P4 Virtual Workstation",
+     "zone": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/us-east4-b",
+     "selfLink": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/us-east4-b/acceleratorTypes/nvidia-tesla-p4-vws",
+     "maximumCardsPerInstance": 4
+    }
+   ]
+  },
+  "zones/us-east4-c": {
+   "acceleratorTypes": [
+    {
+     "kind": "compute#acceleratorType",
+     "id": "10010",
+     "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+     "name": "nvidia-tesla-p4",
+     "description": "NVIDIA Tesla P4",
+     "zone": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/us-east4-c",
+     "selfLink": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/us-east4-c/acceleratorTypes/nvidia-tesla-p4",
+     "maximumCardsPerInstance": 4
+    },
+    {
+     "kind": "compute#acceleratorType",
+     "id": "10012",
+     "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+     "name": "nvidia-tesla-p4-vws",
+     "description": "NVIDIA Tesla P4 Virtual Workstation",
+     "zone": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/us-east4-c",
+     "selfLink": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/us-east4-c/acceleratorTypes/nvidia-tesla-p4-vws",
+     "maximumCardsPerInstance": 4
+    }
+   ]
+  },
+  "zones/australia-southeast1-c": {
+   "warning": {
+    "code": "NO_RESULTS_ON_PAGE",
+    "message": "There are no results for scope 'zones/australia-southeast1-c' on this page.",
+    "data": [
+     {
+      "key": "scope",
+      "value": "zones/australia-southeast1-c"
+     }
+    ]
+   }
+  },
+  "zones/australia-southeast1-a": {
+   "acceleratorTypes": [
+    {
+     "kind": "compute#acceleratorType",
+     "id": "10010",
+     "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+     "name": "nvidia-tesla-p4",
+     "description": "NVIDIA Tesla P4",
+     "zone": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/australia-southeast1-a",
+     "selfLink": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/australia-southeast1-a/acceleratorTypes/nvidia-tesla-p4",
+     "maximumCardsPerInstance": 4
+    },
+    {
+     "kind": "compute#acceleratorType",
+     "id": "10012",
+     "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+     "name": "nvidia-tesla-p4-vws",
+     "description": "NVIDIA Tesla P4 Virtual Workstation",
+     "zone": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/australia-southeast1-a",
+     "selfLink": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/australia-southeast1-a/acceleratorTypes/nvidia-tesla-p4-vws",
+     "maximumCardsPerInstance": 4
+    }
+   ]
+  },
+  "zones/australia-southeast1-b": {
+   "acceleratorTypes": [
+    {
+     "kind": "compute#acceleratorType",
+     "id": "10010",
+     "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+     "name": "nvidia-tesla-p4",
+     "description": "NVIDIA Tesla P4",
+     "zone": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/australia-southeast1-b",
+     "selfLink": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/australia-southeast1-b/acceleratorTypes/nvidia-tesla-p4",
+     "maximumCardsPerInstance": 4
+    },
+    {
+     "kind": "compute#acceleratorType",
+     "id": "10012",
+     "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+     "name": "nvidia-tesla-p4-vws",
+     "description": "NVIDIA Tesla P4 Virtual Workstation",
+     "zone": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/australia-southeast1-b",
+     "selfLink": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/australia-southeast1-b/acceleratorTypes/nvidia-tesla-p4-vws",
+     "maximumCardsPerInstance": 4
+    }
+   ]
+  },
+  "zones/europe-west2-a": {
+   "warning": {
+    "code": "NO_RESULTS_ON_PAGE",
+    "message": "There are no results for scope 'zones/europe-west2-a' on this page.",
+    "data": [
+     {
+      "key": "scope",
+      "value": "zones/europe-west2-a"
+     }
+    ]
+   }
+  },
+  "zones/europe-west2-b": {
+   "warning": {
+    "code": "NO_RESULTS_ON_PAGE",
+    "message": "There are no results for scope 'zones/europe-west2-b' on this page.",
+    "data": [
+     {
+      "key": "scope",
+      "value": "zones/europe-west2-b"
+     }
+    ]
+   }
+  },
+  "zones/europe-west2-c": {
+   "warning": {
+    "code": "NO_RESULTS_ON_PAGE",
+    "message": "There are no results for scope 'zones/europe-west2-c' on this page.",
+    "data": [
+     {
+      "key": "scope",
+      "value": "zones/europe-west2-c"
+     }
+    ]
+   }
+  },
+  "zones/europe-west3-c": {
+   "warning": {
+    "code": "NO_RESULTS_ON_PAGE",
+    "message": "There are no results for scope 'zones/europe-west3-c' on this page.",
+    "data": [
+     {
+      "key": "scope",
+      "value": "zones/europe-west3-c"
+     }
+    ]
+   }
+  },
+  "zones/europe-west3-a": {
+   "warning": {
+    "code": "NO_RESULTS_ON_PAGE",
+    "message": "There are no results for scope 'zones/europe-west3-a' on this page.",
+    "data": [
+     {
+      "key": "scope",
+      "value": "zones/europe-west3-a"
+     }
+    ]
+   }
+  },
+  "zones/europe-west3-b": {
+   "warning": {
+    "code": "NO_RESULTS_ON_PAGE",
+    "message": "There are no results for scope 'zones/europe-west3-b' on this page.",
+    "data": [
+     {
+      "key": "scope",
+      "value": "zones/europe-west3-b"
+     }
+    ]
+   }
+  },
+  "zones/southamerica-east1-a": {
+   "warning": {
+    "code": "NO_RESULTS_ON_PAGE",
+    "message": "There are no results for scope 'zones/southamerica-east1-a' on this page.",
+    "data": [
+     {
+      "key": "scope",
+      "value": "zones/southamerica-east1-a"
+     }
+    ]
+   }
+  },
+  "zones/southamerica-east1-b": {
+   "warning": {
+    "code": "NO_RESULTS_ON_PAGE",
+    "message": "There are no results for scope 'zones/southamerica-east1-b' on this page.",
+    "data": [
+     {
+      "key": "scope",
+      "value": "zones/southamerica-east1-b"
+     }
+    ]
+   }
+  },
+  "zones/southamerica-east1-c": {
+   "warning": {
+    "code": "NO_RESULTS_ON_PAGE",
+    "message": "There are no results for scope 'zones/southamerica-east1-c' on this page.",
+    "data": [
+     {
+      "key": "scope",
+      "value": "zones/southamerica-east1-c"
+     }
+    ]
+   }
+  },
+  "zones/asia-south1-b": {
+   "warning": {
+    "code": "NO_RESULTS_ON_PAGE",
+    "message": "There are no results for scope 'zones/asia-south1-b' on this page.",
+    "data": [
+     {
+      "key": "scope",
+      "value": "zones/asia-south1-b"
+     }
+    ]
+   }
+  },
+  "zones/asia-south1-a": {
+   "warning": {
+    "code": "NO_RESULTS_ON_PAGE",
+    "message": "There are no results for scope 'zones/asia-south1-a' on this page.",
+    "data": [
+     {
+      "key": "scope",
+      "value": "zones/asia-south1-a"
+     }
+    ]
+   }
+  },
+  "zones/asia-south1-c": {
+   "warning": {
+    "code": "NO_RESULTS_ON_PAGE",
+    "message": "There are no results for scope 'zones/asia-south1-c' on this page.",
+    "data": [
+     {
+      "key": "scope",
+      "value": "zones/asia-south1-c"
+     }
+    ]
+   }
+  },
+  "zones/northamerica-northeast1-a": {
+   "acceleratorTypes": [
+    {
+     "kind": "compute#acceleratorType",
+     "id": "10010",
+     "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+     "name": "nvidia-tesla-p4",
+     "description": "NVIDIA Tesla P4",
+     "zone": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/northamerica-northeast1-a",
+     "selfLink": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/northamerica-northeast1-a/acceleratorTypes/nvidia-tesla-p4",
+     "maximumCardsPerInstance": 4
+    },
+    {
+     "kind": "compute#acceleratorType",
+     "id": "10012",
+     "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+     "name": "nvidia-tesla-p4-vws",
+     "description": "NVIDIA Tesla P4 Virtual Workstation",
+     "zone": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/northamerica-northeast1-a",
+     "selfLink": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/northamerica-northeast1-a/acceleratorTypes/nvidia-tesla-p4-vws",
+     "maximumCardsPerInstance": 4
+    }
+   ]
+  },
+  "zones/northamerica-northeast1-b": {
+   "acceleratorTypes": [
+    {
+     "kind": "compute#acceleratorType",
+     "id": "10010",
+     "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+     "name": "nvidia-tesla-p4",
+     "description": "NVIDIA Tesla P4",
+     "zone": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/northamerica-northeast1-b",
+     "selfLink": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/northamerica-northeast1-b/acceleratorTypes/nvidia-tesla-p4",
+     "maximumCardsPerInstance": 4
+    },
+    {
+     "kind": "compute#acceleratorType",
+     "id": "10012",
+     "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+     "name": "nvidia-tesla-p4-vws",
+     "description": "NVIDIA Tesla P4 Virtual Workstation",
+     "zone": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/northamerica-northeast1-b",
+     "selfLink": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/northamerica-northeast1-b/acceleratorTypes/nvidia-tesla-p4-vws",
+     "maximumCardsPerInstance": 4
+    }
+   ]
+  },
+  "zones/northamerica-northeast1-c": {
+   "acceleratorTypes": [
+    {
+     "kind": "compute#acceleratorType",
+     "id": "10010",
+     "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+     "name": "nvidia-tesla-p4",
+     "description": "NVIDIA Tesla P4",
+     "zone": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/northamerica-northeast1-c",
+     "selfLink": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/northamerica-northeast1-c/acceleratorTypes/nvidia-tesla-p4",
+     "maximumCardsPerInstance": 4
+    },
+    {
+     "kind": "compute#acceleratorType",
+     "id": "10012",
+     "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+     "name": "nvidia-tesla-p4-vws",
+     "description": "NVIDIA Tesla P4 Virtual Workstation",
+     "zone": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/northamerica-northeast1-c",
+     "selfLink": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/northamerica-northeast1-c/acceleratorTypes/nvidia-tesla-p4-vws",
+     "maximumCardsPerInstance": 4
+    }
+   ]
+  },
+  "zones/europe-west4-c": {
+   "acceleratorTypes": [
+    {
+     "kind": "compute#acceleratorType",
+     "id": "10010",
+     "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+     "name": "nvidia-tesla-p4",
+     "description": "NVIDIA Tesla P4",
+     "zone": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/europe-west4-c",
+     "selfLink": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/europe-west4-c/acceleratorTypes/nvidia-tesla-p4",
+     "maximumCardsPerInstance": 4
+    },
+    {
+     "kind": "compute#acceleratorType",
+     "id": "10012",
+     "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+     "name": "nvidia-tesla-p4-vws",
+     "description": "NVIDIA Tesla P4 Virtual Workstation",
+     "zone": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/europe-west4-c",
+     "selfLink": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/europe-west4-c/acceleratorTypes/nvidia-tesla-p4-vws",
+     "maximumCardsPerInstance": 4
+    },
+    {
+     "kind": "compute#acceleratorType",
+     "id": "10008",
+     "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+     "name": "nvidia-tesla-v100",
+     "description": "NVIDIA Tesla V100",
+     "zone": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/europe-west4-c",
+     "selfLink": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/europe-west4-c/acceleratorTypes/nvidia-tesla-v100",
+     "maximumCardsPerInstance": 8
+    }
+   ]
+  },
+  "zones/europe-west4-b": {
+   "acceleratorTypes": [
+    {
+     "kind": "compute#acceleratorType",
+     "id": "10010",
+     "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+     "name": "nvidia-tesla-p4",
+     "description": "NVIDIA Tesla P4",
+     "zone": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/europe-west4-b",
+     "selfLink": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/europe-west4-b/acceleratorTypes/nvidia-tesla-p4",
+     "maximumCardsPerInstance": 4
+    },
+    {
+     "kind": "compute#acceleratorType",
+     "id": "10012",
+     "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+     "name": "nvidia-tesla-p4-vws",
+     "description": "NVIDIA Tesla P4 Virtual Workstation",
+     "zone": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/europe-west4-b",
+     "selfLink": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/europe-west4-b/acceleratorTypes/nvidia-tesla-p4-vws",
+     "maximumCardsPerInstance": 4
+    },
+    {
+     "kind": "compute#acceleratorType",
+     "id": "10008",
+     "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+     "name": "nvidia-tesla-v100",
+     "description": "NVIDIA Tesla V100",
+     "zone": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/europe-west4-b",
+     "selfLink": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/europe-west4-b/acceleratorTypes/nvidia-tesla-v100",
+     "maximumCardsPerInstance": 8
+    }
+   ]
+  },
+  "zones/europe-west4-a": {
+   "acceleratorTypes": [
+    {
+     "kind": "compute#acceleratorType",
+     "id": "10004",
+     "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+     "name": "nvidia-tesla-p100",
+     "description": "NVIDIA Tesla P100",
+     "zone": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/europe-west4-a",
+     "selfLink": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/europe-west4-a/acceleratorTypes/nvidia-tesla-p100",
+     "maximumCardsPerInstance": 4
+    },
+    {
+     "kind": "compute#acceleratorType",
+     "id": "10007",
+     "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+     "name": "nvidia-tesla-p100-vws",
+     "description": "NVIDIA Tesla P100 Virtual Workstation",
+     "zone": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/europe-west4-a",
+     "selfLink": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/europe-west4-a/acceleratorTypes/nvidia-tesla-p100-vws",
+     "maximumCardsPerInstance": 4
+    },
+    {
+     "kind": "compute#acceleratorType",
+     "id": "10008",
+     "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+     "name": "nvidia-tesla-v100",
+     "description": "NVIDIA Tesla V100",
+     "zone": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/europe-west4-a",
+     "selfLink": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/europe-west4-a/acceleratorTypes/nvidia-tesla-v100",
+     "maximumCardsPerInstance": 8
+    }
+   ]
+  },
+  "zones/europe-north1-b": {
+   "warning": {
+    "code": "NO_RESULTS_ON_PAGE",
+    "message": "There are no results for scope 'zones/europe-north1-b' on this page.",
+    "data": [
+     {
+      "key": "scope",
+      "value": "zones/europe-north1-b"
+     }
+    ]
+   }
+  },
+  "zones/europe-north1-c": {
+   "warning": {
+    "code": "NO_RESULTS_ON_PAGE",
+    "message": "There are no results for scope 'zones/europe-north1-c' on this page.",
+    "data": [
+     {
+      "key": "scope",
+      "value": "zones/europe-north1-c"
+     }
+    ]
+   }
+  },
+  "zones/europe-north1-a": {
+   "warning": {
+    "code": "NO_RESULTS_ON_PAGE",
+    "message": "There are no results for scope 'zones/europe-north1-a' on this page.",
+    "data": [
+     {
+      "key": "scope",
+      "value": "zones/europe-north1-a"
+     }
+    ]
+   }
+  },
+  "zones/us-west2-c": {
+   "acceleratorTypes": [
+    {
+     "kind": "compute#acceleratorType",
+     "id": "10010",
+     "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+     "name": "nvidia-tesla-p4",
+     "description": "NVIDIA Tesla P4",
+     "zone": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/us-west2-c",
+     "selfLink": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/us-west2-c/acceleratorTypes/nvidia-tesla-p4",
+     "maximumCardsPerInstance": 4
+    },
+    {
+     "kind": "compute#acceleratorType",
+     "id": "10012",
+     "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+     "name": "nvidia-tesla-p4-vws",
+     "description": "NVIDIA Tesla P4 Virtual Workstation",
+     "zone": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/us-west2-c",
+     "selfLink": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/us-west2-c/acceleratorTypes/nvidia-tesla-p4-vws",
+     "maximumCardsPerInstance": 4
+    }
+   ]
+  },
+  "zones/us-west2-b": {
+   "acceleratorTypes": [
+    {
+     "kind": "compute#acceleratorType",
+     "id": "10010",
+     "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+     "name": "nvidia-tesla-p4",
+     "description": "NVIDIA Tesla P4",
+     "zone": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/us-west2-b",
+     "selfLink": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/us-west2-b/acceleratorTypes/nvidia-tesla-p4",
+     "maximumCardsPerInstance": 4
+    },
+    {
+     "kind": "compute#acceleratorType",
+     "id": "10012",
+     "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+     "name": "nvidia-tesla-p4-vws",
+     "description": "NVIDIA Tesla P4 Virtual Workstation",
+     "zone": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/us-west2-b",
+     "selfLink": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/zones/us-west2-b/acceleratorTypes/nvidia-tesla-p4-vws",
+     "maximumCardsPerInstance": 4
+    }
+   ]
+  },
+  "zones/us-west2-a": {
+   "warning": {
+    "code": "NO_RESULTS_ON_PAGE",
+    "message": "There are no results for scope 'zones/us-west2-a' on this page.",
+    "data": [
+     {
+      "key": "scope",
+      "value": "zones/us-west2-a"
+     }
+    ]
+   }
+  },
+  "zones/asia-east2-c": {
+   "warning": {
+    "code": "NO_RESULTS_ON_PAGE",
+    "message": "There are no results for scope 'zones/asia-east2-c' on this page.",
+    "data": [
+     {
+      "key": "scope",
+      "value": "zones/asia-east2-c"
+     }
+    ]
+   }
+  },
+  "zones/asia-east2-b": {
+   "warning": {
+    "code": "NO_RESULTS_ON_PAGE",
+    "message": "There are no results for scope 'zones/asia-east2-b' on this page.",
+    "data": [
+     {
+      "key": "scope",
+      "value": "zones/asia-east2-b"
+     }
+    ]
+   }
+  },
+  "zones/asia-east2-a": {
+   "warning": {
+    "code": "NO_RESULTS_ON_PAGE",
+    "message": "There are no results for scope 'zones/asia-east2-a' on this page.",
+    "data": [
+     {
+      "key": "scope",
+      "value": "zones/asia-east2-a"
+     }
+    ]
+   }
+  }
+ },
+ "selfLink": "https://www.googleapis.com/compute/v1/projects/ric-cccwiki/aggregated/acceleratorTypes"
+}

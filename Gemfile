@@ -3,10 +3,13 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.5.3'
 
-# https://github.com/ryanb/nifty-generators
-#gem "nifty-generators", :group => :development
-## FORGET IT, not updated since 2012 :-(
+#############################################################
+# Riccardo:
+gem 'google-api-client' # 0.24.3 funge
+gem 'googleauth'
 
+#############################################################
+# Rails original
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.1'
 # Use sqlite3 as the database for Active Record

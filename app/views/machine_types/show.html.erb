@@ -1,0 +1,69 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Kind:</strong>
+  <%= @machine_type.kind %>
+</p>
+
+<p>
+  <strong>Google:</strong>
+  <%= @machine_type.google_id %>
+</p>
+
+<p>
+  <strong>Creation timestamp:</strong>
+  <%= @machine_type.creation_timestamp %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @machine_type.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @machine_type.description %>
+</p>
+
+<p>
+  <strong>Guest cpus:</strong>
+  <%= @machine_type.guest_cpus %>
+</p>
+
+<p>
+  <strong>Memory mb:</strong>
+  <%= @machine_type.memory_mb %>
+</p>
+
+<p>
+  <strong>Image space gb:</strong>
+  <%= @machine_type.image_space_gb %>
+</p>
+
+<p>
+  <strong>Maximum persistent disks:</strong>
+  <%= @machine_type.maximum_persistent_disks %>
+</p>
+
+<p>
+  <strong>Maximum persistent disks size gb:</strong>
+  <%= @machine_type.maximum_persistent_disks_size_gb %>
+</p>
+
+<p>
+  <strong>Zone:</strong>
+  <%= @machine_type.zone %>
+</p>
+
+<p>
+  <strong>Self link:</strong>
+  <%= @machine_type.self_link %>
+</p>
+
+<p>
+  <strong>Is shared cpu:</strong>
+  <%= @machine_type.is_shared_cpu %>
+</p>
+
+<%= link_to 'Edit', edit_machine_type_path(@machine_type) %> |
+<%= link_to 'Back', machine_types_path %>

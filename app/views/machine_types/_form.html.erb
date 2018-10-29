@@ -1,0 +1,82 @@
+<%= form_with(model: machine_type, local: true) do |form| %>
+  <% if machine_type.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(machine_type.errors.count, "error") %> prohibited this machine_type from being saved:</h2>
+
+      <ul>
+      <% machine_type.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :kind %>
+    <%= form.text_field :kind %>
+  </div>
+
+  <div class="field">
+    <%= form.label :google_id %>
+    <%= form.number_field :google_id %>
+  </div>
+
+  <div class="field">
+    <%= form.label :creation_timestamp %>
+    <%= form.datetime_select :creation_timestamp %>
+  </div>
+
+  <div class="field">
+    <%= form.label :name %>
+    <%= form.text_field :name %>
+  </div>
+
+  <div class="field">
+    <%= form.label :description %>
+    <%= form.text_field :description %>
+  </div>
+
+  <div class="field">
+    <%= form.label :guest_cpus %>
+    <%= form.number_field :guest_cpus %>
+  </div>
+
+  <div class="field">
+    <%= form.label :memory_mb %>
+    <%= form.number_field :memory_mb %>
+  </div>
+
+  <div class="field">
+    <%= form.label :image_space_gb %>
+    <%= form.number_field :image_space_gb %>
+  </div>
+
+  <div class="field">
+    <%= form.label :maximum_persistent_disks %>
+    <%= form.number_field :maximum_persistent_disks %>
+  </div>
+
+  <div class="field">
+    <%= form.label :maximum_persistent_disks_size_gb %>
+    <%= form.number_field :maximum_persistent_disks_size_gb %>
+  </div>
+
+  <div class="field">
+    <%= form.label :zone %>
+    <%= form.text_field :zone %>
+  </div>
+
+  <div class="field">
+    <%= form.label :self_link %>
+    <%= form.text_field :self_link %>
+  </div>
+
+  <div class="field">
+    <%= form.label :is_shared_cpu %>
+    <%= form.check_box :is_shared_cpu %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

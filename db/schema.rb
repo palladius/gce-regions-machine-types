@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_10_28_175814) do
+ActiveRecord::Schema.define(version: 2018_10_28_204749) do
 
   create_table "gce_regions", force: :cascade do |t|
     t.string "name"
@@ -29,6 +29,24 @@ ActiveRecord::Schema.define(version: 2018_10_28_175814) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["gce_region_id"], name: "index_gce_zones_on_gce_region_id"
+  end
+
+  create_table "machine_types", force: :cascade do |t|
+    t.string "kind"
+    t.integer "google_id"
+    t.datetime "creation_timestamp"
+    t.string "name"
+    t.string "description"
+    t.integer "guest_cpus"
+    t.integer "memory_mb"
+    t.integer "image_space_gb"
+    t.integer "maximum_persistent_disks"
+    t.integer "maximum_persistent_disks_size_gb"
+    t.string "zone"
+    t.string "self_link"
+    t.boolean "is_shared_cpu"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
 end
