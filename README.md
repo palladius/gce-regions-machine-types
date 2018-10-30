@@ -13,6 +13,7 @@ yourself and have a more up-to-date (near-realtime) data retrieval.
     # Rails 5.2.1 , ruby 2.4 -> so hot right now! On 2018-10-28
     # I suggest to use rbenv so you don't need to deturpate your local env.
     git clone https://github.com/palladius/gce-regions-machine-types
+    cd gce-regions-machine-types
     make run
 
 # TODOs
