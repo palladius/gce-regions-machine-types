@@ -40,7 +40,7 @@ if create_regions_and_zones
   #GceZone.create(name: 'southamerica-east1-a')
 
   # Autogenerate from Regions.txt FILE.
-  f = File.open("#{Rails.root}/db/regions.txt").readlines()
+  f = File.open("#{Rails.root}/db/fixtures/regions.txt").readlines()
   f.each do |line|
     region_name, commasep_zones, address = line.split("\t")
     r = GceRegion.create(
