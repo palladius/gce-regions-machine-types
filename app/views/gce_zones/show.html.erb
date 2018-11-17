@@ -15,7 +15,7 @@
   <%= link_to @gce_zone.gce_region, @gce_zone.gce_region %> 
 </p>
 
-<h2>Normal Machine Types</h2>
+<h2>Normal Machine Types (<%= @gce_zone.machine_types.count %>)</h2>
 
 <% @gce_zone.machine_types.each do |mt| %>
   <p> <%= link_to mt,mt %> </p>
