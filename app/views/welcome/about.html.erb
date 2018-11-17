@@ -2,6 +2,23 @@
 
 	<p><%= $APP[:headline] %> </p>
 
+<h2>Data freshness</h2>
+
+<table border='1'>
+	<tr>
+	  <td>GCE Regions list (taken from `regions.txt`). File timestamp:
+      <td><%= $file_properties[:regions].ctime %>
+      <td> <%= time_ago_in_words $file_properties[:regions].ctime %>
+    <tr>
+	  <td>Accelerators: gpus-gic.npy date or acceleratorTypes.aggregatedList.json
+      <td><%= $file_properties[:accelerator_types].ctime %>
+      <td><%= time_ago_in_words $file_properties[:accelerator_types].ctime %>
+    <tr>
+	  <td>normal MT `machineTypes.aggregatedList.json`
+      <td><%= $file_properties[:machine_types].ctime %>
+      <td><%= time_ago_in_words $file_properties[:machine_types].ctime %>
+</table>
+
 <h2>App Info</h2>
 
 	Change this data in `config/initializers/riccardo_constants.rb`:

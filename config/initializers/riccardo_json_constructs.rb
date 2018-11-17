@@ -2,6 +2,12 @@
 require 'json'
 
 $normal_machine_types_json = JSON.parse( File.open("#{Rails.root}/db/fixtures/machineTypes.aggregatedList.json" ).read )
+
+$file_properties = {
+   :machine_types      => File::Stat.new( File.open("#{Rails.root}/db/fixtures/machineTypes.aggregatedList.json")),
+   :accelerator_types => File::Stat.new( File.open("#{Rails.root}/db/fixtures/acceleratorTypes.aggregatedList.json")),
+   :regions            => File::Stat.new( File.open("#{Rails.root}/db/fixtures/regions.txt")),
+}
 #machineTypes.aggregatedList.json
 #$machine_types_items = $sample_machine_types_json['items']
 
