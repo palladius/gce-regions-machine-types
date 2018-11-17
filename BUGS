@@ -1,0 +1,9 @@
+1. Google API conflict
+
+/home/riccardo/.rbenv/versions/2.5.3/lib/ruby/2.5.0/rubygems/specification.rb:2325:in `raise_if_conflicts': Unable to activate google-api-client-0.24.3, because googleauth-0.7.1 conflicts with googleauth (< 0.7.0, >= 0.5) (Gem::ConflictError)
+	from /home/riccardo/.rbenv/versions/2.5.3/lib/ruby/2.5.0/rubygems/specification.rb:1438:in `activate'
+	from /home/riccardo/.rbenv/versions/2.5.3/lib/ruby/2.5.0/rubygems.rb:224:in `rescue in try_activate'
+	from /home/riccardo/.rbenv/versions/2.5.3/lib/ruby/2.5.0/rubygems.rb:217:in `try_activate'
+	from /home/riccardo/.rbenv/versions/2.5.3/lib/ruby/2.5.0/rubygems/core_ext/kernel_require.rb:128:in `rescue in require'
+	from /home/riccardo/.rbenv/versions/2.5.3/lib/ruby/2.5.0/rubygems/core_ext/kernel_require.rb:39:in `require'
+	from bin/list-machinetypes.rb:17:in `<main>'
