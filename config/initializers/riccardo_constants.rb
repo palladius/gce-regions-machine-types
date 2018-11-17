@@ -8,6 +8,7 @@ $APP = {
   :version     => File.open("#{Rails.root}/VERSION" ).read.strip ,  # RAILS_ROOT
   :copyright   => 'Copyright 2018-18 A few rights reserved (see LICENSE)',
   :email       => 'riccardo.carle' + 'sso+gceregions@gmail.com',
+  :code_url    => 'https://github.com/palladius/gce-regions-machine-types',
   :author_name => 'Riccardo Carlesso',
   :is_template => false, # change to false
 }
